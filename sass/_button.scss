@@ -1,0 +1,21 @@
+.btn {
+  &__signin {
+    text-transform: uppercase;
+
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+  }
+}
+
+// .btn__signin {
+//   text-transform: uppercase;
+//
+//
+//   display: inline-block;
+//   border-radius: 10rem;
+//   transition: all 0.2s;
+//   position: relative;
+
+//   border: none;
+//   cursor: pointer;
+// }
