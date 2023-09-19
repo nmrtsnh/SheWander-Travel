@@ -1,21 +1,41 @@
-// .btn {
-//   &__signin {
-//     text-transform: uppercase;
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    display: inline-block;
 
-//     text-decoration: none;
-//     padding: 1.5rem 4rem;
-//   }
-// }
+    transition: all 0.2s;
+    position: relative;
+    border: none;
+    cursor: pointer;
+  }
+  &__signin {
+    background-color: transparent;
+    color: rgb(6, 6, 75);
 
-// .btn__signin {
-//   text-transform: uppercase;
-//
-//
-//   display: inline-block;
-//   border-radius: 10rem;
-//   transition: all 0.2s;
-//   position: relative;
+    &:hover {
+      transform: translateY(-3px);
+      // background-color: rgba(6, 6, 75);
+    }
+  }
 
-//   border: none;
-//   cursor: pointer;
-// }
+  &__register {
+    background-color: rgba(6, 6, 75);
+    color: #fff;
+    border-radius: 10px;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgab(rgb(11, 11, 11), 0.2);
+
+      *:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+  }
+}

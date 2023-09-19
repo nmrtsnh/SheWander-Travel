@@ -4,6 +4,30 @@
   align-items: center;
 
   padding-top: 20px;
+  // border-bottom: 2px solid rgb(201, 199, 199);
+
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    display: block;
+    background-color: rgb(201, 199, 199);
+  }
+
+  &::before {
+    left: 8rem;
+  }
+
+  &::after {
+    right: 11rem;
+  }
 
   &__list {
     display: flex;
@@ -17,8 +41,10 @@
 
   &__link {
     text-decoration: none;
-    color: black;
+    color: rgb(6, 6, 75);
     font-size: 1.8rem;
-    font-weight: 800;
+    font-weight: 400;
   }
+
+  margin-bottom: 2rem;
 }

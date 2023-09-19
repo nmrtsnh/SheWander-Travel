@@ -1,5 +1,5 @@
 .header {
-  background-color: grey;
+  background-color: rgb(218, 211, 211);
 
   &__details {
     display: flex;
@@ -17,4 +17,8 @@
   &--img {
     width: 40%;
   }
+}
+.header__box {
+  display: flex;
+  flex-direction: row;
 }
