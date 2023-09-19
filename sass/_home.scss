@@ -1,0 +1,20 @@
+.activities {
+  &__text--box {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+  &__listing {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    &--details {
+      display: flex;
+    }
+
+    & img {
+      width: 20%;
+    }
+  }
+}
