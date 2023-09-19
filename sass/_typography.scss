@@ -3,3 +3,25 @@
     font-size: 2rem;
   }
 }
+
+.heading-primary {
+  font-size: 6rem;
+  // margin: 8rem 0 5rem 10rem;
+  margin-top: 12rem;
+  margin-bottom: 3rem;
+
+  line-height: 1.2;
+  font-weight: 600;
+  position: relative;
+}
+
+.header-text {
+  font-size: 1.5rem;
+  color: rgb(49, 48, 48);
+  line-height: 1.2;
+  margin-bottom: 6rem;
+}
+
+.header-text__search {
+  margin-top: 20rem;
+}

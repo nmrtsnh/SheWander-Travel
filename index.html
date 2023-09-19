@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -43,45 +45,53 @@
       </div>
       <div class="header__box">
         <div class="header__text-box">
-          <h1 class="header-primary">Discover New Destination</h1>
+          <h1 class="heading-primary">Discover New Destination</h1>
           <p class="header-text">
             A Team of devoted and experienced tourism professionals will provide
             you with the best advice and tips
           </p>
-          <div class="header__form-details">
+
+          <div class="form" id="form-right">
             <div class="form__group">
+              <label for="" class="form__label">Location &#8964; </label>
+
               <input
                 type="text"
                 class="form__input"
                 placeholder="Enter your destinations"
                 id="location"
               />
-              <label for="" class="form__input">Location &#8964; </label>
             </div>
 
             <div class="form__group">
+              <label for="" class="form__label">Date &#8964; </label>
               <input
-                type="date"
+                type="text"
                 class="form__input"
                 placeholder="When it will start?"
                 id="date"
               />
-              <label for="" class="form__input">Date &#8964; </label>
             </div>
             <div class="form__group">
+              <label for="" class="form__label">People &#8964; </label>
               <input
                 type="number"
                 class="form__input"
-                placeholder="How many people"
+                placeholder="How many people?"
                 id="number"
               />
-              <label for="" class="form__input">People &#8964; </label>
+            </div>
+            <div>
+              <button class="btn btn__register btn__explore">
+                Explore Now
+              </button>
             </div>
           </div>
-          <p class="header-text">
-            <span>Popular search:</span><a>Bali,</a>
+          <p class="header__text--search">
+            <span>Popular search:</span>
+            <a href="#">Bali,</a>
             <a href="#">Yogyakarta,</a>
-            <a href="#">Lombok,</a>
+            <a href="#" class="orange">Lombok,</a>
             <a href="#">Hokaido,</a>
             <a href="#">Sumbawa</a>
           </p>
@@ -91,27 +101,30 @@
           <img
             src="img/header-img-1.jpg"
             alt=""
-            class="header__image-box--img"
+            class="header__image-box--img header__image-box--img-1"
           />
           <img
             src="img/header-img-2.jpg"
             alt=""
-            class="header__image-box--img"
+            class="header__image-box--img header__image-box--img-2"
           />
           <img
             src="img/header-img-3.jpg"
             alt=""
-            class="header__image-box--img"
+            class="header__image-box--img header__image-box--img-3"
           />
         </div>
       </div>
 
-      <div class="header--logos">
-        <img src="img/logo-airbnb.png" alt="" class="" />
-        <img src="img/booking-new.png" alt="" class="" />
-        <img src="img/logo-expedia.png" alt="" class="" />
-        <img src="img/logo-booking.png" alt="" class="" />
-        <img src="img/logo-skyscanner.png" alt="" class="" />
+      <div class="header__logos">
+        <img src="img/logo-airbnb.png" alt="" class="header__logos--logo-1" />
+        <img src="img/logo-expedia.png" alt="" class="header__logos--logo-2" />
+        <img src="img/logo-booking.png" alt="" class="header__logos--logo-3" />
+        <img
+          src="img/logo-skyscanner.png"
+          alt=""
+          class="header__logos--logo-4"
+        />
       </div>
     </header>
   </body>

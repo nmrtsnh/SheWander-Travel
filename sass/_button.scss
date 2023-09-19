@@ -6,12 +6,12 @@
     padding: 1.5rem 3rem;
     font-size: 1.8rem;
     font-weight: 300;
-    display: inline-block;
-
+    // display: inline-block;
     transition: all 0.2s;
     position: relative;
     border: none;
     cursor: pointer;
+    // max-width: 100%;
   }
   &__signin {
     background-color: transparent;
@@ -24,7 +24,7 @@
   }
 
   &__register {
-    background-color: rgba(6, 6, 75);
+    background-color: rgb(6, 6, 75);
     color: #fff;
     border-radius: 10px;
 
@@ -37,5 +37,12 @@
         opacity: 0;
       }
     }
+  }
+
+  &__explore {
+    font-size: 1.6rem;
+    padding: 1.5rem 2.5rem;
+    max-width: none;
+    width: 15rem;
   }
 }
