@@ -29,8 +29,7 @@
     &--img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      display: block;
+
       filter: brightness(70%);
     }
     &--img-1 {
@@ -101,6 +100,19 @@
 
     flex-direction: column;
     margin-bottom: 1.5rem;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    column-gap: 0.5rem;
+  }
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: orangered;
   }
 
   &__label {

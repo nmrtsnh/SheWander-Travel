@@ -40,12 +40,12 @@
         </nav>
         <div class="btn">
           <button class="btn btn__signin">Sign In</button>
-          <button class="btn btn__register">Register</button>
+          <button class="btn btn__dark">Register</button>
         </div>
       </div>
       <div class="header__box">
         <div class="header__text-box">
-          <h1 class="heading-primary">Discover New Destination</h1>
+          <h1 class="heading-1">Discover New Destination</h1>
           <p class="header-text">
             A Team of devoted and experienced tourism professionals will provide
             you with the best advice and tips
@@ -53,7 +53,12 @@
 
           <div class="form" id="form-right">
             <div class="form__group">
-              <label for="" class="form__label">Location &#8964; </label>
+              <div class="form__details">
+                <label for="" class="form__label">Location</label>
+                <svg class="form__icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-thin-down"></use>
+                </svg>
+              </div>
 
               <input
                 type="text"
@@ -64,7 +69,13 @@
             </div>
 
             <div class="form__group">
-              <label for="" class="form__label">Date &#8964; </label>
+              <div class="form__details">
+                <label for="" class="form__label">Date</label>
+                <svg class="form__icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-thin-down"></use>
+                </svg>
+              </div>
+
               <input
                 type="text"
                 class="form__input"
@@ -73,7 +84,13 @@
               />
             </div>
             <div class="form__group">
-              <label for="" class="form__label">People &#8964; </label>
+              <div class="form__details">
+                <label for="" class="form__label">People</label>
+                <svg class="form__icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-thin-down"></use>
+                </svg>
+              </div>
+
               <input
                 type="number"
                 class="form__input"
@@ -82,9 +99,7 @@
               />
             </div>
             <div>
-              <button class="btn btn__register btn__explore">
-                Explore Now
-              </button>
+              <button class="btn btn__dark btn__explore">Explore Now</button>
             </div>
           </div>
           <p class="header__text--search">
@@ -128,72 +143,321 @@
       </div>
     </header>
 
-    <section class="activities">
-      <div class="activities__text--box">
-        <h1 class="heading-primary">Explore Wonderful Experience</h1>
+    <section class="features">
+      <div class="features__text--box">
+        <h1 class="heading-1 heading-2">Explore Wonderful Experience</h1>
         <p class="header-text">
           Feel the excited activities on the way you're going to trip, we have a
           lot of activities that you can explore with our professional guide
         </p>
       </div>
-      <div class="activities__listing">
-        <div class="activities__listing--details">
-          <img src="img/activities-img-1.png" alt="" class="" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+      <div class="feature">
+        <div class="feature__listing">
+          <img src="img/activities-img-1.png" alt="" class="feature__img-1" />
+          <div class="feature__text">
+            <h3 class="heading-3">Beach Activity</h3>
+            <p class="text-3">124 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-2.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-2.png" alt="" class="feature__img-2" />
+          <div class="feature__text">
+            <h3 class="heading-3">Bungee Jumping</h3>
+            <p class="text-3">213 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-3.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-3.png" alt="" class="feature__img-3" />
+          <div class="feature__text">
+            <h3 class="heading-3">City Tours</h3>
+            <p class="text-3">210 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-4.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-4.png" alt="" class="feature__img-4" />
+          <div class="feature__text">
+            <h3 class="heading-3">Hiking Trips</h3>
+            <p class="text-3">20 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-5.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-5.png" alt="" class="feature__img-5" />
+          <div class="feature__text">
+            <h3 class="heading-3">Mountain Bike</h3>
+            <p class="text-3">123 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-6.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-6.png" alt="" class="feature__img-6" />
+          <div class="feature__text">
+            <h3 class="heading-3">Scuba Diving</h3>
+            <p class="text-3">564 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-7.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-7.png" alt="" class="feature__img-7" />
+          <div class="feature__text">
+            <h3 class="heading-3">Sailing Trips</h3>
+            <p class="text-3">109 Properties</p>
           </div>
         </div>
-        <div class="activities__listing--details">
-          <img src="img/activities-img-8.png" alt="" class="temp" />
-          <div class="activities__listing--name">
-            <h3 class="heading-tertiary">Beach Activity</h3>
-            <p class="text-tertiary">124 Properties</p>
+        <div class="feature__listing">
+          <img src="img/activities-img-8.png" alt="" class="feature__img-8" />
+          <div class="feature__text">
+            <h3 class="heading-3">Beach Activity</h3>
+            <p class="text-3">129 Properties</p>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="packages">
+      <div class="packages___text--box">
+        <div class="packages__text">
+          <h1 class="heading-1 heading-2">SheWanders Travel Tours Package</h1>
+          <p class="header-text">
+            Get the full package experience included with all of your needs on
+            the trips
+          </p>
+        </div>
+        <div class="button">
+          <button class="btn orange-btn">View All Packages</button>
+        </div>
+      </div>
+
+      <ul class="packages__list">
+        <li>
+          <a href="#">Speacial Deals</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="#">Recommendation</a>
+        </li>
+        <li>
+          <a href="#">Best Price</a>
+        </li>
+      </ul>
+
+      <div class="packages__details">
+        <div class="packages__details--overview">
+          <div class="location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location"></use>
+            </svg>
+
+            <p class="text-3">Hiroshima, Japan</p>
+          </div>
+          <h3 class="heading-3">Tokyo Hunt Traditional Cruise Dinner</h3>
+          <div class="location__img">
+            <img src="img/location-1.jpg" alt="" />
+          </div>
+          <div class="packages__overview">
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-accessibility"></use>
+              </svg>
+              <p class="text-4">10 Activities</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-safari"></use>
+              </svg>
+              <p class="text-4">12 Places</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-calendar"></use>
+              </svg>
+              <p class="text-4">1 Weeks</p>
+            </div>
+          </div>
+          <div class="packages__pricing">
+            <p class="text-4 text-5">From $1,100<span>/Person</span></p>
+            <div class="button">
+              <button class="btn orange-btn">View Availability</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="packages__details--overview">
+          <div class="location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location"></use>
+            </svg>
+
+            <p class="text-3">Guangzhou, China</p>
+          </div>
+          <h3 class="heading-3">Guangzhou Conghua Bishuiwan Hot Spring</h3>
+          <div class="location__img">
+            <img src="img/location-2.jpg" alt="" />
+          </div>
+          <div class="packages__overview">
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-accessibility"></use>
+              </svg>
+              <p class="text-4">14 Activities</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-safari"></use>
+              </svg>
+              <p class="text-4">11 Places</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-calendar"></use>
+              </svg>
+              <p class="text-4">1 Weeks</p>
+            </div>
+          </div>
+          <div class="packages__pricing">
+            <p class="text-4 text-5">From $1,750<span>/Person</span></p>
+            <div class="button">
+              <button class="btn orange-btn">View Availability</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="packages__details--overview">
+          <div class="location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location"></use>
+            </svg>
+
+            <p class="text-3">Hiroshima, Japan</p>
+          </div>
+          <h3 class="heading-3">Japanese Street Food Full Dish</h3>
+          <div class="location__img">
+            <img src="img/location-3.jpg" alt="" class="location__img--3" />
+          </div>
+          <div class="packages__overview">
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-accessibility"></use>
+              </svg>
+              <p class="text-4">12 Activities</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-safari"></use>
+              </svg>
+              <p class="text-4">15 Places</p>
+            </div>
+            <div class="packages__overview--text">
+              <svg class="packages__overview--text--icon">
+                <use xlink:href="img/sprite.svg#icon-calendar"></use>
+              </svg>
+              <p class="text-4">1 Weeks</p>
+            </div>
+          </div>
+          <div class="packages__pricing">
+            <p class="text-4 text-5">From $1,250<span>/Person</span></p>
+            <div class="button">
+              <button class="btn orange-btn">View Availability</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="listing">
+      <div class="listing__image-box">
+        <img
+          src="img/destination-img-1.jpg"
+          alt=""
+          class="listing__image-box__img--1"
+        />
+        <img
+          src="img/destination-img-2.jpg"
+          alt=""
+          class="listing__image-box__img--2"
+        />
+        <img
+          src="img/destination-img-3.jpg"
+          alt=""
+          class="listing__image-box__img--3"
+        />
+      </div>
+
+      <div class="listing__box">
+        <div class="listing__text-box">
+          <h1 class="heading-2">Visit Most Popular Destination</h1>
+          <p class="text-6">
+            Doesn't have an idea where to go? maybe you can check our popular
+            destination list you can visit, you sure want to go there after you
+            check up
+          </p>
+
+          <div>
+            <button class="btn btn__dark">Check Listing</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials__text">
+        <h2 class="heading-2">What They Says About Our Services</h2>
+        <div class="button">
+          <button class="button__arrow">
+            <svg class="button__arrow--icon">
+              <use xlink:href="img/sprite.svg#icon-chevron-thin-left"></use>
+            </svg>
+          </button>
+          <button class="button__arrow">
+            <svg class="button__arrow--icon">
+              <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="testimonials__details">
+        <p class="text-3">
+          The holiday of a life time - our gulet adventure in the Dodecanese
+          Greek Islands was without a doubt out favourite family trip. The crew
+          also taking care of us
+        </p>
+        <div class="testimonials__users">
+          <img src="img/user-1.jpg" alt="" class="testimonials__img" />
+          <div class="testimonials__users--details">
+            <p class="text-3">Brooklyn Simoons</p>
+            <p class="text-4">Lead Creative Designer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials__details">
+        <p class="text-3">
+          This was the first time I had travelled with SheWanders Travels. The
+          company specialises in expert-led cultural and gulet tours in Europe.
+          The expert guide is outstanding
+        </p>
+        <div class="testimonials__users">
+          <img src="img/user-2.jpg" alt="" class="testimonials__img" />
+          <div class="testimonials__users--details">
+            <p class="text-3">Kristin Wartson</p>
+            <p class="text-4">Student at University</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials__details">
+        <p class="text-3">
+          This was our fourth trip with SheWanders Travels and it lived up to
+          our very high expectations. It was a wonderfully organized trip with
+          beautiful trip with beautiful activities experience
+        </p>
+        <div class="testimonials__users">
+          <img src="img/user-3.jpg" alt="" class="testimonials__img" />
+          <div class="testimonials__users--details">
+            <p class="text-3">Savannah Nguyen</p>
+            <p class="text-4">Full time writer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscription"></section>
   </body>
 </html>

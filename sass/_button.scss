@@ -23,7 +23,7 @@
     }
   }
 
-  &__register {
+  &__dark {
     background-color: rgb(6, 6, 75);
     color: #fff;
     border-radius: 10px;
@@ -44,5 +44,39 @@
     padding: 1.5rem 2.5rem;
     max-width: none;
     width: 15rem;
+  }
+}
+
+.orange-btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(228, 121, 82);
+  border: none;
+  background-color: rgb(217, 196, 183);
+  border-radius: 1rem;
+}
+
+.button {
+  // text-decoration: none;
+  // padding: 1.5rem 3rem;
+  // font-size: 1.8rem;
+  // font-weight: 300;
+  // // display: inline-block;
+  // transition: all 0.2s;
+  // position: relative;
+  // border: none;
+  // cursor: pointer;
+  &__arrow {
+    border: none;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+
+    &--icon {
+      width: 3rem;
+      height: 3rem;
+      fill: #fff;
+    }
   }
 }
