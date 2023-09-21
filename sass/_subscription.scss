@@ -1,0 +1,12 @@
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2caca;
+
+  &__detail {
+    &--input {
+      background-color: yellow;
+    }
+  }
+}

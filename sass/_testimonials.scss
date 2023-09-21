@@ -1,6 +1,40 @@
 .testimonials {
+  background-color: #d2caca;
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+
   &__text {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__details {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    &--box {
+      border: 2px solid #c3c1c1;
+      box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+      display: grid;
+      padding: 4rem;
+      background-color: #ddd8d8;
+    }
+    &--users {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 5rem;
+      & img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: block;
+      }
+    }
   }
 }

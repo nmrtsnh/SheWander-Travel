@@ -61,6 +61,21 @@ body {
   margin-bottom: 8rem;
   color: #5b5757; }
 
+.text-testimonial {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #5c5959; }
+
+.text-light {
+  color: grey; }
+
+.text-dark {
+  color: black; }
+
+.heading-testimonial {
+  width: 45%; }
+
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -134,16 +149,29 @@ body {
   background-color: #d9c4b7;
   border-radius: 1rem; }
 
-.button__arrow {
-  border: none;
+.button {
   text-decoration: none;
-  background-color: orangered;
-  padding: 1.5rem 2rem;
-  border-radius: 2rem; }
-  .button__arrow--icon {
-    width: 3rem;
-    height: 3rem;
-    fill: #fff; }
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  transition: all 0.2s;
+  position: relative;
+  border: none;
+  cursor: pointer; }
+  .button__arrow {
+    border: none;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem; }
+    .button__arrow--icon {
+      width: 3rem;
+      height: 3rem;
+      fill: #fff; }
+  .button--light {
+    background-color: #bfbebe; }
+  .button--icon-light {
+    fill: #645f5f; }
 
 .header {
   background-image: url(../img/bg-image-header.jpg);
@@ -393,6 +421,42 @@ body {
       grid-row: 5 / 9;
       grid-column: 3 / 5; }
 
-.testimonials__text {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
+.testimonials {
+  background-color: #d2caca;
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem; }
+  .testimonials__text {
+    display: flex;
+    justify-content: space-between; }
+  .testimonials__details {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; }
+    .testimonials__details--box {
+      border: 2px solid #c3c1c1;
+      box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+      display: grid;
+      padding: 4rem;
+      background-color: #ddd8d8; }
+    .testimonials__details--users {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 5rem; }
+      .testimonials__details--users img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: block; }
+
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2caca; }
+  .subscription__detail--input {
+    background-color: yellow; }
